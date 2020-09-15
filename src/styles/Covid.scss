@@ -73,6 +73,10 @@
 .symptoms-covid-tooltip .tooltip-inner{
     max-width: 100% !important;
     width: 100% !important;
+   .symptoms-main{
+        display: flex;
+        flex-direction: row;
+    }
 }
 .tooltip-inner{
         color:black !important;
@@ -86,15 +90,10 @@
         .heading{
             font-weight: 700;
         }
-        .left{
-            float: left;
-        }
+       
         ul { list-style: none;
             padding-left: 0px; } 
         li{
-            &:not(:first-of-type){
-            padding-top: 5px;
-            }
             &::before {
             content:"\25E5";
             color: rgb(252, 214, 114);  
